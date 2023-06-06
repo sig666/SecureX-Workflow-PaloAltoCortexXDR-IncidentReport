@@ -1,6 +1,6 @@
 # SecureX-Workflow-PaloAltoCortexXDR-IncidentReport
 
-This workflow is a simple example of reporting and summarizing major contents of Incidents of reported to Palo Alto Cortex XDR to Cisco SecureX Incident Manager and Cisco Webex Messaging room. The reporting destination could be changed as needed.
+This workflow is a simple example of generating the summary report which includes major contents of some of filtered Incidents informations of  Palo Alto Cortex XDR solutions to <B>Cisco SecureX Ribbon Incident Manager</B> and to <B>Cisco Webex Messaging room</B>. The reporting destination could be changed as needed.
 
 The workflow will create summary informations to Cisco SecureX and Cisco webex which is reported from Palo Alto Cortex XDR "Incident". Needed fileld would be customizable. Incident IDs, Descriptions, Assigned User Mail is provided, Changed and added as you needed.
 
