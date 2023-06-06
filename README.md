@@ -7,15 +7,15 @@ The workflow will create summary informations to Cisco SecureX and Cisco webex w
 <img width="1163" alt="スクリーンショット 2023-06-06 20 45 31" src="https://github.com/sig666/SecureX-Workflow-PaloAltoCortexXDR-IncidentReport/assets/45964305/5b18a3dc-1baa-497c-9488-7ebff6113d96">
 
 # Change Log
-Jun, 6, 2023 : Initial Release
+- Jun, 6, 2023 : Initial Release
 
 # Requirements
 
 The following system atomics are used by this workflow:
 
-    Threat Response - Generate Access Token
-    Threat Response - Enrich Observable
-    Threat Response - Create Casebook
-    Set Variables
-    JSONPath Query
+- Threat Response - Generate Access Token
+- Threat Response - Enrich Observable
+- Threat Response - Create Casebook
+- Set Variables
+- JSONPath Query
     Send Email
