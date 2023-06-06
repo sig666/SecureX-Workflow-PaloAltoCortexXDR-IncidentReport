@@ -24,5 +24,24 @@ The following system atomics are used by this workflow:
 The following atomic actions must be imported before you can import this workflow:
 - None
 
-The targets and account keys listed at the bottom of the page
-- Threat Response
+The Targets and account keys listed at the bottom of the page
+- <B>Cortex XDR</B> : HTTP Target
+- <B>Private_CTIA_Target</B> : HTTP Target (Default Created)
+
+
+# Workflow Steps
+- Request and confirm needed Variables
+- Request to call Palo Alto Cortex XDR Incident
+- Filtering and creating Incident Text
+- Create SecureX Threat Response Incident
+- Create & post Webex Incident message
+
+# Installation
+- Browse to your SecureX orchestration instance. This wille be a different URL depending on the region your account is in:
+ - US: https://securex-ao.us.security.cisco.com/orch-ui/workflows/
+ - EU: https://securex-ao.eu.security.cisco.com/orch-ui/workflows/
+ - APJC: https://securex-ao.apjc.security.cisco.com/orch-ui/workflows/
+- Click on <B>Import</B> to import the workflow.
+- Select <B>Browse</B> from Import From
+- Open SecureX-Workflow-Umbrella-EventReportToCasebook.json and Copy text
+- Paste to Paste JSON or upload the workflow to import and click Import
