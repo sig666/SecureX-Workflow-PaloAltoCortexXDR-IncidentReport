@@ -12,10 +12,11 @@ The workflow will create summary informations "Cisco SecureX Incident Manager Re
 # Requirements
 
 The following system atomics are used by this workflow:
-
-- Threat Response - Generate Access Token
-- Threat Response - Enrich Observable
-- Threat Response - Create Casebook
-- Set Variables
-- JSONPath Query
-    Send Email
+- Web Service - HTTP Request
+- Table - Read Table from JSON
+- Core - Set Variables
+- Core - Convert Json to Xml
+- Core - Replace String
+- Threat Response - Create Incident
+- Webex - Search for Room
+- Webex - Post Message to Room
