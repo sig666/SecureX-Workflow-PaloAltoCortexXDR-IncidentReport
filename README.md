@@ -28,7 +28,6 @@ The Targets and account keys listed at the bottom of the page
 - <B>Cortex XDR</B> : HTTP Target
 - <B>Private_CTIA_Target</B> : HTTP Target (Default Created)
 
-
 # Workflow Steps
 - Request and confirm needed Variables
 - Request to call Palo Alto Cortex XDR Incident
@@ -41,6 +40,7 @@ The Targets and account keys listed at the bottom of the page
  - US: https://securex-ao.us.security.cisco.com/orch-ui/workflows/
  - EU: https://securex-ao.eu.security.cisco.com/orch-ui/workflows/
  - APJC: https://securex-ao.apjc.security.cisco.com/orch-ui/workflows/
+ 
 - Click on <B>Import</B> to import the workflow.
 - Select <B>Browse</B> from Import From
 - Open SecureX-Workflow-Umbrella-EventReportToCasebook.json and Copy text
