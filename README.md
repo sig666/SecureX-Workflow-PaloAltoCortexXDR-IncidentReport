@@ -20,3 +20,9 @@ The following system atomics are used by this workflow:
 - Threat Response - Create Incident
 - Webex - Search for Room
 - Webex - Post Message to Room
+
+The following atomic actions must be imported before you can import this workflow:
+- None
+
+The targets and account keys listed at the bottom of the page
+- Threat Response
