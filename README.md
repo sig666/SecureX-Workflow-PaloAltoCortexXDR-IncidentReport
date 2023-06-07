@@ -47,5 +47,34 @@ The Targets and account keys listed at the bottom of the page
 
 - Click on <B>Import</B> to import the workflow.
 - Select <B>Browse</B> from Import From
-- Open SecureX-Workflow-Umbrella-EventReportToCasebook.json and Copy text
-- Paste to Paste JSON or upload the workflow to import and click Import
+- Open <B>SecureX-Workflow-Umbrella-EventReportToCasebook.json</B> and Copy text
+- Paste to <B>Paste JSON or upload the workflow to import</B> and click <B>Import
+</B>
+<img width="726" alt="install" src="https://github.com/sig666/SecureX-Workflow-PaloAltoCortexXDR-IncidentReport/assets/45964305/cc77f62d-1673-4ca7-bdfa-d2bfcc38f237">
+
+# Configuration
+- Set the Workflow Variable of `Palo Alto Cortex XDR Key` to your Palo Alto Cortex XDR API Key - ex: XZ2QnfySy1yL....
+- Set the Workflow Variable of `Palo Alto Cortex XDR Key ID` to your Palo Alto Cortex XDR API Key ID - ex: 12
+- Set the Workflow Variable of `Webex Access Token` to your Webex Messaging Access Token (Bearer) - ex: ZGQ5OWVmZ...
+- Set the Workflow Variable of `Webex Room Name` to your Webex Space name which you want to post
+- Set and Change `R. OPERAND` in `Conditions` setting to your apporopriate CTR Endpoint - ex: CTR_API
+- (Optional) change `search_from` and `search_to` count to the scope number that you want to fetch the incidents
+  - Palo Alto Cortex XDR API Document
+  - https://cortex-panw.stoplight.io/docs/cortex-xdr/axpm6b98x4p18-cortex-xdr-api-overview
+
+# Targets
+Target Group: `Default TargetGroup`
+
+|Target Name|Type|Details|Account Keys|Notes|
+|:---|:---|:---|:---|:---|
+|CTR_For_Access_Token_New|HTTP Endpoint|Protocol: HTTPS,　Host: `visibility.apjc.amp.cisco.com`,　Path: `/iroh`|`Fase` with New SecureX Token Credential|Need to Configure|
+|Cortex XDR|HTTP Endpoint|Protocol: HTTPS,　Host: `<your_api_host>.xdr.jp.paloaltonetworks.com`,　Path: None|`Fase`|Need to Create|
+|Private_CTIA_Target|HTTP Endpoint|Protocol: HTTPS,　Host: `private.intel.apjc.amp.cisco.com`,　Path: None|CTR_Credentials|Created by Default|
+
+By default, the Default TargetGroup may doesn't have Cortex XDR targets. You will need to update the target group and add New HTTP Endpoint to the target types included. More information about target groups can be found here https://ciscosecurity.github.io/sxo-05-security-workflows/targets/groups.
+
+# Account Keys
+|Account Key Name|Type|Details|Notes|
+|:---|:---|:---|:---|
+|CTR_Credentials|SecureX Token||https://ciscosecurity.github.io/sxo-05-security-workflows/account-keys/securex-token|
+|Email Credentials|Email Credentials|Username: `Your Email User`, Password: `Your Email Password`||
