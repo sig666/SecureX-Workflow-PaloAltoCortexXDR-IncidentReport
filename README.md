@@ -67,8 +67,8 @@ Target Group: `Default TargetGroup`
 
 |Target Name|Type|Details|Account Keys|Notes|
 |:---|:---|:---|:---|:---|
-|CTR_For_Access_Token_New|HTTP Endpoint|Protocol: HTTPS,　Host: `visibility.apjc.amp.cisco.com`,　Path: `/iroh`|`Fase` with New SecureX Token Credential|Need to Configure|
-|Cortex XDR|HTTP Endpoint|Protocol: HTTPS,　Host: `<your_api_host>.xdr.jp.paloaltonetworks.com`,　Path: None|`Fase`|Need to Create|
+|CTR_For_Access_Token_New|HTTP Endpoint|Protocol: HTTPS,　Host: `visibility.apjc.amp.cisco.com`,　Path: `/iroh`|`False` with New SecureX Token Credential|Need to Configure|
+|Cortex XDR|HTTP Endpoint|Protocol: HTTPS,　Host: `<your_api_host>.xdr.jp.paloaltonetworks.com`,　Path: None|`True`|Need to Create|
 |Private_CTIA_Target|HTTP Endpoint|Protocol: HTTPS,　Host: `private.intel.apjc.amp.cisco.com`,　Path: None|CTR_Credentials|Created by Default|
 
 By default, the Default TargetGroup may doesn't have Cortex XDR targets. You will need to update the target group and add New HTTP Endpoint to the target types included. More information about target groups can be found here https://ciscosecurity.github.io/sxo-05-security-workflows/targets/groups.
@@ -76,5 +76,4 @@ By default, the Default TargetGroup may doesn't have Cortex XDR targets. You wil
 # Account Keys
 |Account Key Name|Type|Details|Notes|
 |:---|:---|:---|:---|
-|CTR_Credentials|SecureX Token||https://ciscosecurity.github.io/sxo-05-security-workflows/account-keys/securex-token|
-|Email Credentials|Email Credentials|Username: `Your Email User`, Password: `Your Email Password`||
+|SecureX-Token-1|SecureX Token|Your valid SecureX Token. This is needed for get Threat Response Token and post Message to Casebook|https://ciscosecurity.github.io/sxo-05-security-workflows/account-keys/securex-token|
