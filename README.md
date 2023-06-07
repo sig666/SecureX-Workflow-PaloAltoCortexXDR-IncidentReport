@@ -47,7 +47,7 @@ The Targets and account keys listed at the bottom of the page
 
 - Click on <B>Import</B> to import the workflow.
 - Select <B>Browse</B> from Import From
-- Open <B>SecureX-Workflow-Umbrella-EventReportToCasebook.json</B> and Copy text
+- Open <B> SecureX-Workflow-PaloAltoCortexXDR-IncidentReport.json</B> and Copy text
 - Paste to <B>Paste JSON or upload the workflow to import</B> and click <B>Import
 </B>
 <img width="726" alt="install" src="https://github.com/sig666/SecureX-Workflow-PaloAltoCortexXDR-IncidentReport/assets/45964305/cc77f62d-1673-4ca7-bdfa-d2bfcc38f237">
