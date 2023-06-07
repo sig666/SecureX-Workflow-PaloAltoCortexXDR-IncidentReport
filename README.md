@@ -29,6 +29,8 @@ The following atomic actions must be imported before you can import this workflo
 The Targets and account keys listed at the bottom of the page
 - <B>Cortex XDR</B> : HTTP Target
 - <B>Private_CTIA_Target</B> : HTTP Target (Default Created)
+  - This workflow use New SecureX Token. To change <B>No Account Keys</B> to <B>False</B> with your New SecureX Token authentication.
+  - https://ciscosecurity.github.io/sxo-05-security-workflows/account-keys/securex-token
 
 # Workflow Steps
 - Request and confirm needed Variables
