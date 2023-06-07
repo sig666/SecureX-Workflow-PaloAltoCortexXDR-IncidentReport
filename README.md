@@ -1,8 +1,8 @@
 # SecureX-Workflow-PaloAltoCortexXDR-IncidentReport
 
-This workflow is a simple example of generating the summary report which includes major contents of some of filtered Incidents informations of  Palo Alto Cortex XDR solutions to <B>Cisco SecureX Ribbon Incident Manager</B> and to <B>Cisco Webex Messaging room</B>. The reporting destination could be changed as you would like to configure as followed.
-
-The workflow will create summary informations "Cisco SecureX Incident Manager Report" and "Cisco webex Message" which is reported from Palo Alto Cortex XDR "Incident". Needed fileld which includes Incident IDs, Descriptions, Assigned User Mail and others will be provided and becustomizable.
+This workflow is a simple example to generate the summary report of Palo Alto Cortex XDR which includes major contents of some of filtered Incidents informations to <B>Cisco SecureX Ribbon Incident Manager</B> and to <B>Cisco Webex Messaging room</B>. The reporting destination could be changed as you would like to configure.
+Needed fileld which like Incident IDs, Incident Names, Status, Severities, Descriptions, XDR_Report URLs, Alert Counts, Assigned User Mail and others will be provided and be customizable.
+This workflow sample is used of Scheduled Triger and set of Incident Scope in 1st API Call (HTTP Service) to Cortex XDR API endpoint but is could be changed. If it needs to configure realtime alarting, it should be set and change to Webhook Triger co-working with Cortex XDR.
 
 <img width="1163" alt="スクリーンショット 2023-06-06 20 45 31" src="https://github.com/sig666/SecureX-Workflow-PaloAltoCortexXDR-IncidentReport/assets/45964305/5b18a3dc-1baa-497c-9488-7ebff6113d96">
 
