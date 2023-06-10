@@ -6,7 +6,7 @@ Needed fileld which like Incident IDs, Incident Names, Status, Severity, Descrip
 
 This workflow sample is used of Scheduled Triger and set of Incident Scope in 1st API Call (HTTP Service) to Cortex XDR API endpoint but is could be changed. If it needs to configure real-time alerting, it should be set and change to Webhook Triger co-working with Cortex XDR.
 
-<img width="1163" alt="スクリーンショット 2023-06-06 20 45 31" src="https://github.com/sig666/SecureX-Workflow-PaloAltoCortexXDR-IncidentReport/assets/45964305/5b18a3dc-1baa-497c-9488-7ebff6113d96">
+<img width="1163" alt="スクリーンショット 2023-06-06 20 45 31" src="https://github.com/sig666/SecureX-Workflow-PaloAltoCortexXDR-IncidentReport/img/workflow2.png">
 
 # Change Log
 - Jun, 6, 2023 : Initial Release
